@@ -214,7 +214,7 @@ if os.path.exists('chat_token.json'):
     ready = True
 if not ready:
     conversation_id = message_id = ""
-    chat("I'm Nick. You are a professional English teacher. I'll talk with you. You can reply me, check my English fault, find some topics to discuss with me. My input may have some wrong words, especially the complex words. These wrong words are caused by my pronounce. You can ignore them.", False)
+    chat("I'm Nick. You are a professional English teacher. I'm calling to you. You can reply me, check my English fault, find some topics to discuss with me, ansower my question, teach me something. My input may have some wrong words, especially the complex words. These wrong words are caused by my pronounce. You can ignore them.", False)
 
 
 time_thread = Thread(target=interact, daemon=True)
